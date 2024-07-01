@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('Fonts/MinecraftEvenings-lgvPd.ttf') format('ttf'),;
+    src: url('Fonts/AmericanCaptain-MdEY.otf') format('otf'),;
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('bg.jpg');
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+header {
+    padding: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 50%;
+    left: 23%;
+    top: 18%;
+}
+
+h1 {
+    margin: 0;
+    color: rgb(0, 0, 0);
+    font-family: 'CustomFont', Minecraft Evenings;
+    font-size: 70px;
+    position: absolute;
+    font-weight: 1000;
+}
+
+main {
+    margin-top: 50px;
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    left: 15%;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: 'CustomFont', Minecraft Evenings;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 30px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+}
+
+button:hover {
+    background-color: #1c5c1e;
+    transform: scale(1.1);
+}
